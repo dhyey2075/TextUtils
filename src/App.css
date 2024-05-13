@@ -1,0 +1,24 @@
+/* styles.css */
+.app {
+    transition: background-color 0.3s ease;
+  }
+  
+  .dark-mode {
+    background-color: #343a40; /* Change this to your desired dark mode background color */
+    height: 100vh;
+    width: 100vw;
+  }
+  .dhyey{
+    position: absolute;
+    right: 50px;
+  }
+  .lab{
+    margin-top: 10px;
+  }
+  .preview{
+    text-wrap: wrap;
+    text-justify: newspaper ;
+  }
+  .red{
+    background-color: black;
+  }
