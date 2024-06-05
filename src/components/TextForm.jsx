@@ -59,6 +59,11 @@ export default function TextForm(props) {
   };
 
   const handleOriginal = (e) => {
+    if(localStorage.getItem("text") === null || localStorage.getItem("text") === "") {
+      setText("Enter your text here...");
+      showAlert("No saved item found", "danger");
+      return;
+    }
     setText(localStorage.getItem("text"));
     setCount(e.target.value.length);
     showAlert("Restored to saved item", "danger");
